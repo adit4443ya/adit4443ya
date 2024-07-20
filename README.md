@@ -3,7 +3,7 @@
 ![header](https://capsule-render.vercel.app/api?text=Hi%20Aditya%20Trivedi%20here!&animation=fadeIn&type=waving&color=gradient&height=100)
 
 ## 🙋‍♂️ About Me
-- 👨‍🎓 I'm a Sophomore undergrad at the Computer Science Department, IIT Jodhpur.
+- 👨‍🎓 I'm a Pre-Final year undergrad student at the Computer Science Department, IIT Jodhpur.
 - 🌱 I’m currently learning Explicit Parallelism, Go for backend, Kotlin jetpackCompose.
 - 📫 How to reach me: b22cs055@iitj.ac.in
 - 👯 I’m looking to collaborate on open-source projects.

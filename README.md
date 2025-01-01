@@ -3,9 +3,9 @@
   <img src="https://media.giphy.com/media/3ornk57KwDXf81rjWM/giphy.gif" width="40">
 </h1>
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Courier+Prime&duration=2000&pause=1000&color=00FF00&size=25&center=true&vCenter=true&width=600&height=100&lines=while(alive)+%7B+code()+%7D;Professional+Bug+Creator+%26+Solver;Parallel Compute Universe;Error+404%3A+Sleep+Not+Found;Warning%3A+Not+Gonna+Act+to+make+you+please" />
-</p>
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Courier+Prime&duration=2000&pause=1000&color=00FF00&center=true&vCenter=true&random=false&width=600&height=100&lines=while(alive)+%7B+code()+%7D;Professional+Bug+Creator+%26+Solver;PARALLEL+UNIVERSE+DEBUGGER;Error+404%3A+Sleep+Not+Found;Warning%3A+Not+Gonna+Please+You" />
+</div>
 
 <div align="center">
   <img src="https://media.giphy.com/media/78XCFBGOlS6keY1Bil/giphy.gif" alt="Code Matrix" width="400">

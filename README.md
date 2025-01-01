@@ -13,27 +13,22 @@
 
 ## $ whoami
 
-```typescript
-interface Developer {
-  name: string;
-  title: string;
-  location: string;
-  available_for: string[];
-  current_bugs: number;
-}
+```perl
+#!/usr/bin/env existence
 
-const aditya: Developer = {
-  name: "Aditya Trivedi",
-  title: "Compiler Whisperer @ LFortran",
-  location: "IIT Jodhpur (where dreams meet deadlines)",
-  available_for: [
-    "Turning coffee into code",
-    "Making GPUs cry",
-    "Breaking production... I mean, testing",
-    "Explaining why my code works on my machine"
-  ],
-  current_bugs: Number.POSITIVE_INFINITY
+# EVIDENCE LOG: SUBJECT IDENTIFICATION
+package HomoSapienDeveloper;
+
+my $suspect = {
+    DESIGNATION   => "Aditya Trivedi",
+    LOCATION     => "IIT Jodhpur (title: "Compiler Whisperer @ LFortran",)",
+    OCCUPATION   => "Compiler Whisperer & Code Detective",
+    WANTED_FOR   => "Breaking Binary Barriers",
+    DESCRIPTION  => "Known to convert caffeine into code with suspicious efficiency",
+    ALIASES      => ["LFortran Agent", "CUDA Conspirator", "Stack Overflow Survivor"]
 };
+
+# WARNING: Reading further may cause spontaneous coding episodes
 ```
 
 ## 🎯 Current Side Quests

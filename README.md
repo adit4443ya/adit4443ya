@@ -1,11 +1,11 @@
 <h1 align="center">
-<b>rm -rf /dev/boredom/* && sudo install aditya-trivedi</b>
+<b>rm -rf /dev/boredom/* && sudo install ADITYA_TRIVEDI</b>
   <img src="https://media.giphy.com/media/3ornk57KwDXf81rjWM/giphy.gif" width="40">
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 </h1>
-
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Courier+Prime&duration=2000&pause=1000&color=00FF00&center=true&vCenter=true&random=false&width=600&height=100&lines=while(alive)+%7B+code()+%7D;Professional+Bug+Creator+%26+Solver;PARALLEL+UNIVERSE+DEBUGGER;Error+404%3A+Sleep+Not+Found;Warning%3A+Not+Gonna+Please+You" />
-</div>
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Courier+Prime&duration=2000&pause=1000&color=00FF00&size=25&center=true&vCenter=true&width=600&height=100&lines=while(alive)+%7B+code()+%7D;Professional+Bug+Creator+%26+Solver;Parallel Compute Universe;Error+404%3A+Sleep+Not+Found;Warning%3A+Not+Gonna+Act+to+make+you+please" />
+</p>
 
 <div align="center">
   <img src="https://media.giphy.com/media/78XCFBGOlS6keY1Bil/giphy.gif" alt="Code Matrix" width="400">
@@ -13,22 +13,27 @@
 
 ## $ whoami
 
-```perl
-#!/usr/bin/env existence
+```typescript
+interface Developer {
+  name: string;
+  title: string;
+  location: string;
+  available_for: string[];
+  current_bugs: number;
+}
 
-# EVIDENCE LOG: SUBJECT IDENTIFICATION
-package HomoSapienDeveloper;
-
-my $suspect = {
-    DESIGNATION   => "Aditya Trivedi",
-    LOCATION     => "IIT Jodhpur (title: "Compiler Whisperer @ LFortran",)",
-    OCCUPATION   => "Compiler Whisperer & Code Detective",
-    WANTED_FOR   => "Breaking Binary Barriers",
-    DESCRIPTION  => "Known to convert caffeine into code with suspicious efficiency",
-    ALIASES      => ["LFortran Agent", "CUDA Conspirator", "Stack Overflow Survivor"]
+const aditya: Developer = {
+  name: "Aditya Trivedi",
+  title: "Compiler Whisperer @ LFortran",
+  location: "IIT Jodhpur (where dreams meet deadlines)",
+  available_for: [
+    "Turning coffee into code",
+    "Making GPUs cry",
+    "Breaking production... I mean, testing",
+    "Explaining why my code works on my machine"
+  ],
+  current_bugs: Number.POSITIVE_INFINITY
 };
-
-# WARNING: Reading further may cause spontaneous coding episodes
 ```
 
 ## 🎯 Current Side Quests

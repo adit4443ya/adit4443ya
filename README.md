@@ -55,6 +55,8 @@ $ ps aux | grep "current_mood"
   <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=adit4443ya&theme=radical&hide_border=true" />
 </div>
 
+![Snake animation](https://github.com/adit4443ya/adit4443ya/blob/output/github-contribution-grid-snake-dark.svg)
+
 ## 🛠️ Tech Stack Overflow
 
 ```sql

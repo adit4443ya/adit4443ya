@@ -22,11 +22,11 @@ interface Developer {
 
 const aditya: Developer = {
   name: "Aditya Trivedi",
-  title: "Compiler Whisperer @ LFortran",
+  title: "Compiler Developer @ LFortran",
   location: "IIT Jodhpur (where dreams meet deadlines)",
   available_for: [
     "Turning coffee into code",
-    "Making GPUs cry",
+    "Making GPUs cry, Use MPI and OpenMp to enter Parallel Multiverse",
     "Breaking production... I mean, testing",
     "Explaining why my code works on my machine"
   ],

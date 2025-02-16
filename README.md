@@ -69,7 +69,7 @@ SELECT * FROM skills WHERE coffee_required = true;
 | 🚀 Parallel Universe | `OpenMP (race condition generator)` `CUDA (GPU whisperer)` `MPI (message passing insanity)` |
 | 📱 Mobile Mayhem | `Kotlin (Java, but cooler)` `JetPack Compose (UI magic)` |
 | 🌐 Web Wizardry | `React (DOM manipulator)` `Express (server speedrunner)` `Node (async await paradise)` |
-| 🎓 Also Fluent In | `Debugging production at 3 AM` `Reading legacy code` `Writing "self-documenting" code`  |
+| 🎓 Also Fluent In | `Debugging production at 3 AM` `Reading legacy code` `Writing "self-documentary" code`  |
 
 </div>
 

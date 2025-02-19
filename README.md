@@ -41,7 +41,7 @@ $ ps aux | grep "current_mood"
 ```
 🔮 Wrestling with **OpenMP**, **MPI** and making GPUs do my bidding  
 🎪 Turning the **LFortran LLVM Compiler** into my personal playground  
-🌪️ Tornado-chasing through **Parallel Computing**, **Blockchain**, **GPU Programming**, and **Android** realms  
+🌪️ Tornado-chasing through **Parallel Computing**, **Blockchain**, **GPU Programming**, **Big Graphs Data Analytics**, and **Android** realms  
 🎯 Seeking partners-in-crime for open-source mischief  
 
 💌 **Want to join the chaos?** → b22cs055@iitj.ac.in

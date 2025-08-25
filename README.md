@@ -93,7 +93,16 @@ public:
 |:---:|:---:|
 | ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=adit4443ya&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866) | ![GitHub Streak](https://streak-stats.demolab.com/?user=adit4443ya&theme=radical&hide_border=true&background=0D1117) |
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=adit4443ya&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=F85D7F)
+<div align="center">
+
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=adit4443ya&theme=tokyo-night&hide_border=true)
+
+</div>
+
+<div align="center">
+
+[![wakatime](https://wakatime.com/badge/user/dc1efaa2-00a9-4191-b081-e140ba3f1a3e.svg)](https://wakatime.com/@dc1efaa2-00a9-4191-b081-e140ba3f1a3e)    
+</div>
 
 </div>
 

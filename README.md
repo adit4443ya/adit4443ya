@@ -1,7 +1,11 @@
 <div align="center">
 
-<!-- 🌈 Gradient-styled name poster -->
-<img src="https://svg-banners.vercel.app/api?type=glitch&text1=Aditya%20Trivedi&width=800&height=200" alt="Aditya Trivedi Poster" />
+![Neon Banner](https://readme-typing-svg.herokuapp.com?font=Monoton&size=60&pause=1000&color=FF00FF&center=true&vCenter=true&width=800&height=100&lines=Aditya+Trivedi)
+
+</div>
+
+
+<div align="center">
 
 <!-- Subtitle with smooth typing animation -->
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=Compiler+Developer+%40+LFortran;GSoC+2025+Developer;HPC+Research+%40+IIT+Jodhpur;Parallel+Programming+Enthusiast)](https://git.io/typing-svg)
@@ -179,7 +183,7 @@ class HiddenStats:
 ```
 
 **🏃‍♂️ Non-Technical Superpowers:**
--  Don't need anyoone's POV on my choice.
+-  Don't need anyone's POV
 -  My way have always been beneficial (100% accuracy)
 -  Be Observant
 

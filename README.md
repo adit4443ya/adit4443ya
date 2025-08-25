@@ -1,68 +1,205 @@
-# Aditya Trivedi
+# ⚡ Aditya Trivedi
+### `$ sudo apt install parallel-computing-wizard`
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=007ACC&center=true&vCenter=true&width=735&lines=Hello+there!+I'm+Aditya+Trivedi;Compiler+Developer+@+LFortran;Innovating+in+Parallel+Computing+at+IIT+Jodhpur" alt="Typing SVG" />
-</p>
+<div align="center">
+  
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00F7FF&center=true&vCenter=true&width=435&lines=Compiler+Developer+%40+LFortran;GSoC+2025+Developer;HPC+Research+%40+IIT+Jodhpur;Parallel+Programming+Enthusiast)](https://git.io/typing-svg)
 
-<p align="center">
-  <em>Passionate about transforming complex ideas into efficient code. Currently at IIT Jodhpur, where innovation meets real-world impact.</em>
-</p>
+</div>
 
-<p align="center">
-  <a href="mailto:b22cs055@iitj.ac.in"><img src="https://img.shields.io/badge/Email-Contact%20Me-blue?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-  <!-- Add other socials if available, e.g., LinkedIn, Twitter -->
-</p>
+---
 
-## About Me
-👋 I'm Aditya Trivedi, a dedicated Compiler Developer at LFortran, specializing in LLVM-based tools. Based at IIT Jodhpur, I thrive on tackling challenges in parallel computing, GPU programming, and beyond. In my free time, I explore open-source projects, collaborate on innovative tech, and delve into blockchain and big data analytics—always with a cup of coffee in hand.
+## 🧬 `./whoami --verbose`
 
-My approach is collaborative and diplomatic: I believe in sharing knowledge to build stronger solutions, whether it's optimizing code for high-performance computing or developing intuitive Android apps. Available for discussions on turning concepts into scalable realities.
+```cpp
+class AdityaTrivedi {
+private:
+    string institution = "IIT Jodhpur";
+    string year = "Final Year (2026)";
+    
+public:
+    vector<string> getCurrentFocus() {
+        return {"LFortran Compiler Development", "OpenMP GPU Offloading", "HPC Research"};
+    }
+    
+    string getPassion() { 
+        return "Making computers go brrrr with parallel processing"; 
+    }
+};
+```
 
-## Skills & Expertise
-Harnessing a diverse tech stack to solve intricate problems. Here's a categorized overview:
+<div align="center">
 
-| Category              | Technologies & Tools                                                                 |
-|-----------------------|--------------------------------------------------------------------------------------|
-| **Core Programming** | <img src="https://img.shields.io/badge/C++-00599C?style=flat&logo=c%2B%2B&logoColor=white"> <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black"> |
-| **Parallel Computing** | <img src="https://img.shields.io/badge/OpenMP-000000?style=flat&logo=openmp&logoColor=white"> <img src="https://img.shields.io/badge/CUDA-76B900?style=flat&logo=nvidia&logoColor=white"> <img src="https://img.shields.io/badge/MPI-007ACC?style=flat&logo=mpi&logoColor=white"> |
-| **Mobile Development** | <img src="https://img.shields.io/badge/Kotlin-0095D5?style=flat&logo=kotlin&logoColor=white"> <img src="https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=flat&logo=jetpackcompose&logoColor=white"> |
-| **Web Development**  | <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black"> <img src="https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white"> <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white"> |
-| **Emerging Tech**    | Blockchain, GPU Programming, Big Graphs Data Analytics, Android Frameworks           |
+![Snake eating my contributions](https://github.com/adit4443ya/adit4443ya/blob/output/github-contribution-grid-snake-dark.svg)
 
-*Pro Tip: Fluent in debugging under pressure and writing maintainable, self-documenting code.*
+</div>
 
-## Current Projects & Quests
-🔍 Diving deep into the LFortran LLVM Compiler to enhance performance.  
-🚀 Exploring OpenMP and MPI for seamless parallel processing.  
-🌐 Venturing into blockchain for secure, decentralized applications.  
-📊 Analyzing big graphs for insightful data patterns.  
-📱 Crafting modern Android experiences with Kotlin and Jetpack Compose.
+---
 
-Eager to collaborate? Let's connect on open-source initiatives that push boundaries.
+## 🚀 `git status` 
 
-## GitHub Stats & Achievements
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=adit4443ya&show_icons=true&theme=dark&hide_border=true" alt="GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=adit4443ya&layout=compact&theme=dark&hide_border=true" alt="Top Languages" width="48%" />
-</p>
+🔭 **Currently hacking on:** LFortran Compiler & Google Summer of Code 2025  
+🌱 **Learning:** Advanced GPU Offloading with OpenMP + CUDA  
+📊 **Research Focus:** Fast Algorithms for Dynamic Graph Problems  
+💡 **Fun Fact:** I try not to be nonchalant
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=adit4443ya&theme=dark&hide_border=true" alt="Streak Stats" />
-</p>
+---
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=adit4443ya&theme=onedark&no-frame=true" alt="Trophies" />
-</p>
+## 🏗️ **Architecture & Parallel Universe**
 
-<p align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=adit4443ya.adit4443ya&left_color=gray&right_color=green" alt="Visitor Badge" />
-</p>
+<table>
+<tr>
+<td>
 
-## Contribution Graph
-![Contribution Snake](https://github.com/adit4443ya/adit4443ya/blob/output/github-contribution-grid-snake-dark.svg)
+### ⚙️ **Systems Programming**
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
+![Fortran](https://img.shields.io/badge/Fortran-734F96?style=for-the-badge&logo=fortran&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
 
-## Fun Fact
-While(!(succeed = try())); // Embracing persistence in code and life—one iteration at a time.
+### 🔥 **Parallel Computing**
+![OpenMP](https://img.shields.io/badge/OpenMP-0066CC?style=for-the-badge&logo=openmp&logoColor=white)
+![CUDA](https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
+![MPI](https://img.shields.io/badge/MPI-FF6B35?style=for-the-badge)
 
-## Get in Touch
-Interested in parallel universes of computing or compiler magic? Drop a line at [b22cs055@iitj.ac.in](mailto:b22cs055@iitj.ac.in). Let's brew some ideas over virtual coffee!
+</td>
+<td>
+
+### 📱 **Mobile & Web**
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+### 🛢️ **Databases & Infrastructure**
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
+</td>
+</tr>
+</table>
+
+---
+
+## 📈 **Performance Metrics**
+
+<div align="center">
+
+| 📊 **GitHub Analytics** | 🔥 **Streak Stats** |
+|:---:|:---:|
+| ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=adit4443ya&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866) | ![GitHub Streak](https://streak-stats.demolab.com/?user=adit4443ya&theme=radical&hide_border=true&background=0D1117) |
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=adit4443ya&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=F85D7F)
+
+</div>
+
+---
+
+## 🏆 **Achievement Tree**
+
+```
+🌟 Research & Publications
+├── 📄 IEEE HiPC 2024: "Fast MIS on Incremental Graphs"
+├── 📄 EuroMicro PDP 2025: "Fast Maximal Independent Sets on Dynamic Graphs"  
+└── 📊 Performance: 15.64x speedup (insertions), 10.57x speedup (deletions)
+
+🔧 Open Source Contributions  
+├── 🚀 LFortran: MPI-based POT3D compilation (0.95x compile, 0.75x runtime vs GFortran)
+├── 💻 GSoC 2025: Develop OpenMp Features (13+ constructs, 8+ clauses, Base setup for Nvidia GPU offloading)
+└── 🧩 Pure Fortran MPI implementation (30+ subroutines)
+```
+
+---
+
+## 🎯 **Current Missions**
+
+<details>
+<summary><b>🔬 Research & Development</b></summary>
+
+- **LFortran Compiler:** Building the future of Fortran compilation
+- **OpenMP GPU Offloading:** Making CUDA and OpenMP play nice together  
+- **Dynamic Graph Algorithms:** Because static is boring
+- **High-Performance Computing:** Cuz mmm.. milliseconds matter 
+
+</details>
+
+<details>
+<summary><b>🎓 Academic Excellence</b></summary>
+
+- **Institution:** Indian Institute of Technology, Jodhpur  
+- **CGPA:** Shoulld not be considered
+- **Specialization:** Computer Science & Engineering
+- **Graduation:** May 2026
+
+</details>
+
+---
+
+## 🌐 **Version Control of Life**
+
+```bash
+$ git log --oneline --graph aditya/life
+* 2025     GSoC: OpenMP CUDA Integration 🚀
+* 2024-25  IEEE Publications on Graph Algorithms 📊  
+* 2024     LFortran Core Contributor 🔧
+* 2024     WorkHubPro: Full-Stack Architecture 💼
+* 2022-26  IIT Jodhpur: CS Engineering 🎓
+```
+
+---
+
+## 📡 **Network Protocols**
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/aditya-trivedi)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/adit4443ya)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:b22cs055@iitj.ac.in)
+
+</div>
+
+---
+
+## 🎮 **Easter Eggs**
+
+<details>
+<summary><b>🔍 Click to reveal hidden stats...</b></summary>
+
+```python
+# Secret achievement unlocked!
+class HiddenStats:
+    def __init__(self):
+        self.coffee_consumed = "∞ cups"
+        self.bugs_fixed = "More than created (hopefully)"
+        self.stackoverflow_visits = "Privacy mode enabled"
+        self.favorite_debugging_method = "printf() driven development"
+        
+    def life_philosophy(self):
+        return "while(!(succeed = try())): coffee.drink();"
+```
+
+**🏃‍♂️ Non-Technical Superpowers:**
+-  Don't need anyoone's POV on my choice.
+-  My way have always been beneficial (100% accuracy)
+-  Be Observant
+
+</details>
+
+---
+
+<div align="center">
+
+### 💬 **"Talk is cheap. Show me the code."** - Linus Torvalds
+
+![Profile Views](https://komarev.com/ghpvc/?username=adit4443ya&color=blueviolet&style=for-the-badge)
+[![Followers](https://img.shields.io/github/followers/adit4443ya?style=for-the-badge&color=orange)](https://github.com/adit4443ya)
+
+**Currently Compiling...** ⚡
+
+</div>
+
+---
+
+<div align="center">
+<i>🚧 This profile is (not) continuously integrated and continuously deployed, Stalkers can DM (It's free of cost) 🚧</i>
+</div>

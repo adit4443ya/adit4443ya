@@ -1,9 +1,12 @@
-# ⚡ Aditya Trivedi
-### `$ sudo apt install parallel-computing-wizard`
-
+<!-- Centered Name -->
 <div align="center">
-  
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00F7FF&center=true&vCenter=true&width=435&lines=Compiler+Developer+%40+LFortran;GSoC+2025+Developer;HPC+Research+%40+IIT+Jodhpur;Parallel+Programming+Enthusiast)](https://git.io/typing-svg)
+  <h1>It's Aditya Trivedi </h1>
+</div>
+
+<!-- Typing Animation -->
+<div align="center">
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1200&color=00F7FF&center=true&vCenter=true&width=600&lines=Compiler+Developer+%40+LFortran;GSoC+2025+Contributor;HPC+Researcher+%40+IIT+Jodhpur;Parallel+Programming+Enthusiast;Building+Scalable+Systems+with+OpenMP%2C+MPI%2C+CUDA)](https://git.io/typing-svg)
 
 </div>
 

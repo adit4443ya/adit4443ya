@@ -1,110 +1,68 @@
-<h1 align="center">
-<b> sudo apt install ADITYA_TRIVEDI</b>
-  <img src="https://media.giphy.com/media/3ornk57KwDXf81rjWM/giphy.gif" width="40">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-</h1>
-
-
-<div align="center">
-  <img src="https://media.giphy.com/media/78XCFBGOlS6keY1Bil/giphy.gif" alt="Code Matrix" width="400">
-</div>
-
-## $ whoami
-
-```typescript
-interface Developer {
-  name: string;
-  title: string;
-  location: string;
-  available_for: string[];
-  current_bugs: number;
-}
-
-const aditya: Developer = {
-  name: "Aditya Trivedi",
-  title: "Compiler Developer @ LFortran",
-  location: "IIT Jodhpur (where dreams meet deadlines)",
-  available_for: [
-    "Turning coffee into code",
-    "Making GPUs cry, Use MPI and OpenMp to enter Parallel Multiverse",
-    "Breaking production... I mean, testing",
-    "Explaining why my code works on my machine"
-  ],
-  current_bugs: Number.POSITIVE_INFINITY
-};
-```
-
-## 🎯 Current Side Quests
-
-```bash
-$ ps aux | grep "current_mood"
-```
-🔮 Wrestling with **OpenMP**, **MPI** and making GPUs do my bidding  
-🎪 Turning the **LFortran LLVM Compiler** into my personal playground  
-🌪️ Tornado-chasing through **Parallel Computing**, **Blockchain**, **GPU Programming**, **Big Graphs Data Analytics**, and **Android** realms  
-🎯 Seeking partners-in-crime for open-source mischief  
-
-💌 **Want to join the chaos?** → b22cs055@iitj.ac.in
-
-## 📈 Git Blame Statistics
-
-<div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=adit4443ya&show_icons=true&theme=radical&hide_border=true" />
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=adit4443ya&theme=radical&hide_border=true" />
-</div>
-
-![Snake animation](https://github.com/adit4443ya/adit4443ya/blob/output/github-contribution-grid-snake-dark.svg)
-
-## 🛠️ Tech Stack Overflow
-
-```sql
-SELECT * FROM skills WHERE coffee_required = true;
-```
-
-<div align="center">
-  
-| Category | Technologies |
-|----------|-------------|
-| 💻 Core Powers | `C++ (because life needs more pointers)` `Python (snake charmer)` `JavaScript (making browsers cry)` |
-| 🚀 Parallel Universe | `OpenMP (race condition generator)` `CUDA (GPU whisperer)` `MPI (message passing insanity)` |
-| 📱 Mobile Mayhem | `Kotlin (Java, but cooler)` `JetPack Compose (UI magic)` |
-| 🌐 Web Wizardry | `React (DOM manipulator)` `Express (server speedrunner)` `Node (async await paradise)` |
-| 🎓 Also Fluent In | `Debugging production at 3 AM` `Reading legacy code` `Writing "self-documentary" code`  |
-
-</div>
-
-## 🏆 Achievement Unlocked
-
-```python
-while not success:
-    try:
-        code()
-        success = True
-    except Life as e:
-        coffee.drink()
-        continue
-```
+# Aditya Trivedi
 
 <p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,c,cpp,go,kotlin,docker,express,github,java,js,linux,python,react,rust&perline=7" />
-  </a>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=007ACC&center=true&vCenter=true&width=735&lines=Hello+there!+I'm+Aditya+Trivedi;Compiler+Developer+@+LFortran;Innovating+in+Parallel+Computing+at+IIT+Jodhpur" alt="Typing SVG" />
 </p>
-
-## 📡 Signal Interceptors
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/aditya-trivedi-a30b70259/">
-    <img src="https://img.shields.io/badge/LinkedIn-Making%20Connections-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="https://www.instagram.com/adi_20184/">
-    <img src="https://img.shields.io/badge/Instagram-Debug%20Life-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
-  </a>
+  <em>Passionate about transforming complex ideas into efficient code. Currently at IIT Jodhpur, where innovation meets real-world impact.</em>
 </p>
 
-<div align="center">
-<img src="https://media.giphy.com/media/l3vRmVv5P01I5NDAA/giphy.gif" width="200">  <br>
-<i>while(!(succeed = try())); // Life in one line</i>
-</div>
+<p align="center">
+  <a href="mailto:b22cs055@iitj.ac.in"><img src="https://img.shields.io/badge/Email-Contact%20Me-blue?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  <!-- Add other socials if available, e.g., LinkedIn, Twitter -->
+</p>
 
-<!-- Legend says this README compiles faster than my actual code -->
+## About Me
+👋 I'm Aditya Trivedi, a dedicated Compiler Developer at LFortran, specializing in LLVM-based tools. Based at IIT Jodhpur, I thrive on tackling challenges in parallel computing, GPU programming, and beyond. In my free time, I explore open-source projects, collaborate on innovative tech, and delve into blockchain and big data analytics—always with a cup of coffee in hand.
+
+My approach is collaborative and diplomatic: I believe in sharing knowledge to build stronger solutions, whether it's optimizing code for high-performance computing or developing intuitive Android apps. Available for discussions on turning concepts into scalable realities.
+
+## Skills & Expertise
+Harnessing a diverse tech stack to solve intricate problems. Here's a categorized overview:
+
+| Category              | Technologies & Tools                                                                 |
+|-----------------------|--------------------------------------------------------------------------------------|
+| **Core Programming** | <img src="https://img.shields.io/badge/C++-00599C?style=flat&logo=c%2B%2B&logoColor=white"> <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black"> |
+| **Parallel Computing** | <img src="https://img.shields.io/badge/OpenMP-000000?style=flat&logo=openmp&logoColor=white"> <img src="https://img.shields.io/badge/CUDA-76B900?style=flat&logo=nvidia&logoColor=white"> <img src="https://img.shields.io/badge/MPI-007ACC?style=flat&logo=mpi&logoColor=white"> |
+| **Mobile Development** | <img src="https://img.shields.io/badge/Kotlin-0095D5?style=flat&logo=kotlin&logoColor=white"> <img src="https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=flat&logo=jetpackcompose&logoColor=white"> |
+| **Web Development**  | <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black"> <img src="https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white"> <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white"> |
+| **Emerging Tech**    | Blockchain, GPU Programming, Big Graphs Data Analytics, Android Frameworks           |
+
+*Pro Tip: Fluent in debugging under pressure and writing maintainable, self-documenting code.*
+
+## Current Projects & Quests
+🔍 Diving deep into the LFortran LLVM Compiler to enhance performance.  
+🚀 Exploring OpenMP and MPI for seamless parallel processing.  
+🌐 Venturing into blockchain for secure, decentralized applications.  
+📊 Analyzing big graphs for insightful data patterns.  
+📱 Crafting modern Android experiences with Kotlin and Jetpack Compose.
+
+Eager to collaborate? Let's connect on open-source initiatives that push boundaries.
+
+## GitHub Stats & Achievements
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=adit4443ya&show_icons=true&theme=dark&hide_border=true" alt="GitHub Stats" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=adit4443ya&layout=compact&theme=dark&hide_border=true" alt="Top Languages" width="48%" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=adit4443ya&theme=dark&hide_border=true" alt="Streak Stats" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=adit4443ya&theme=onedark&no-frame=true" alt="Trophies" />
+</p>
+
+<p align="center">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=adit4443ya.adit4443ya&left_color=gray&right_color=green" alt="Visitor Badge" />
+</p>
+
+## Contribution Graph
+![Contribution Snake](https://github.com/adit4443ya/adit4443ya/blob/output/github-contribution-grid-snake-dark.svg)
+
+## Fun Fact
+While(!(succeed = try())); // Embracing persistence in code and life—one iteration at a time.
+
+## Get in Touch
+Interested in parallel universes of computing or compiler magic? Drop a line at [b22cs055@iitj.ac.in](mailto:b22cs055@iitj.ac.in). Let's brew some ideas over virtual coffee!

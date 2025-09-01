@@ -8,7 +8,7 @@
 <div align="center">
 
 <!-- Subtitle with smooth typing animation -->
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=Compiler+Developer+%40+LFortran;GSoC+2025+Developer;HPC+Research+%40+IIT+Jodhpur;Parallel+Programming+Enthusiast)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=Compiler+Developer+%40+LFortran;GSoC+2025+Student+Contributor;HPC+Research+%40+IIT+Jodhpur;Parallel+Programming+Enthusiast)](https://git.io/typing-svg)
 
 </div>
 

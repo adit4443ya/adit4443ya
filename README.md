@@ -1,218 +1,63 @@
-<div align="center">
+<!-- ═══════════════ OPTION 1: TERMINAL / CLI (refined, minimal) ═══════════════ -->
 
-![Neon Banner](https://readme-typing-svg.herokuapp.com?font=Monoton&size=60&pause=1000&color=FF00FF&center=true&vCenter=true&width=800&height=100&lines=Aditya+Trivedi)
+```
+aditya@qualcomm:~$ whoami
+```
 
-</div>
+**Aditya Trivedi** — Compiler Engineer, ARM LLVM Team @ Qualcomm · Hyderabad
 
-
-<div align="center">
-
-<!-- Subtitle with smooth typing animation -->
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=Compiler+Developer+%40+LFortran;GSoC+2025+Student+Contributor;HPC+Research+%40+IIT+Jodhpur;Parallel+Programming+Enthusiast)](https://git.io/typing-svg)
-
-</div>
-
-
-## 🧬 `./whoami --verbose`
+```
+aditya@qualcomm:~$ cat profile.txt
+```
 
 ```cpp
-class AdityaTrivedi {
-private:
-    string institution = "IIT Jodhpur";
-    string year = "Final Year (2026)";
-    
-public:
-    vector<string> getCurrentFocus() {
-        return {"LFortran Compiler Development", "OpenMP GPU Offloading", "HPC Research"};
-    }
-    
-    string getPassion() { 
-        return "Making computers go brrrr with parallel processing"; 
+// warning: opinions may be undefined behavior
+struct Aditya {
+    std::string_view stack = "LLVM · AArch64 · C++ · OpenMP · CUDA · MLIR";
+
+    constexpr auto hot_take() {
+        return "your loop doesn't vectorize because of that if-condition. "
+               "change it to a ternary. you're welcome.";
     }
 };
 ```
 
-<div align="center">
-
-![Snake eating my contributions](https://github.com/adit4443ya/adit4443ya/blob/output/github-contribution-grid-snake-dark.svg)
-
-</div>
-
----
-
-## 🚀 `git status` 
-
-🔭 **Currently hacking on:** LFortran Compiler & Google Summer of Code 2025  
-🌱 **Learning:** Advanced GPU Offloading with OpenMP + CUDA  
-📊 **Research Focus:** Fast Algorithms for Dynamic Graph Problems  
-💡 **Fun Fact:** I try not to be nonchalant
-
----
-
-## 🏗️ **Architecture & Parallel Universe**
-
-<table>
-<tr>
-<td>
-
-### ⚙️ **Systems Programming**
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
-![Fortran](https://img.shields.io/badge/Fortran-734F96?style=for-the-badge&logo=fortran&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
-
-### 🔥 **Parallel Computing**
-![OpenMP](https://img.shields.io/badge/OpenMP-0066CC?style=for-the-badge&logo=openmp&logoColor=white)
-![CUDA](https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
-![MPI](https://img.shields.io/badge/MPI-FF6B35?style=for-the-badge)
-
-</td>
-<td>
-
-### 📱 **Mobile & Web**
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-
-### 🛢️ **Databases & Infrastructure**
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-
-</td>
-</tr>
-</table>
-
----
-
-## 📈 **Performance Metrics**
-
-<div align="center">
-
-| 📊 **GitHub Analytics** | 🔥 **Streak Stats** |
-|:---:|:---:|
-| ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=adit4443ya&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866) | ![GitHub Streak](https://streak-stats.demolab.com/?user=adit4443ya&theme=radical&hide_border=true&background=0D1117) |
-
-<div align="center">
-
-![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=adit4443ya&theme=tokyo-night&hide_border=true)
-
-</div>
-
-<div align="center">
-
-[![wakatime](https://wakatime.com/badge/user/dc1efaa2-00a9-4191-b081-e140ba3f1a3e.svg)](https://wakatime.com/@dc1efaa2-00a9-4191-b081-e140ba3f1a3e)    
-</div>
-
-</div>
-
----
-
-## 🏆 **Achievement Tree**
-
 ```
-🌟 Research & Publications
-├── 📄 IEEE HiPC 2024: "Fast MIS on Incremental Graphs"
-├── 📄 EuroMicro PDP 2025: "Fast Maximal Independent Sets on Dynamic Graphs"  
-└── 📊 Performance: 15.64x speedup (insertions), 10.57x speedup (deletions)
-
-🔧 Open Source Contributions  
-├── 🚀 LFortran: MPI-based POT3D compilation (0.95x compile, 0.75x runtime vs GFortran)
-├── 💻 GSoC 2025: Develop OpenMp Features (13+ constructs, 8+ clauses, Base setup for Nvidia GPU offloading)
-└── 🧩 Pure Fortran MPI implementation (30+ subroutines)
+aditya@qualcomm:~$ ls -la ~/work
 ```
 
----
-
-## 🎯 **Current Missions**
-
-<details>
-<summary><b>🔬 Research & Development</b></summary>
-
-- **LFortran Compiler:** Building the future of Fortran compilation
-- **OpenMP GPU Offloading:** Making CUDA and OpenMP play nice together  
-- **Dynamic Graph Algorithms:** Because static is boring
-- **High-Performance Computing:** Cuz mmm.. milliseconds matter 
-
-</details>
-
-<details>
-<summary><b>🎓 Academic Excellence</b></summary>
-
-- **Institution:** Indian Institute of Technology, Jodhpur  
-- **CGPA:** Shoulld not be considered
-- **Specialization:** Computer Science & Engineering
-- **Graduation:** May 2026
-
-</details>
-
----
-
-## 🌐 **Version Control of Life**
-
-```bash
-$ git log --oneline --graph aditya/life
-* 2025     GSoC: OpenMP CUDA Integration 🚀
-* 2024-25  IEEE Publications on Graph Algorithms 📊  
-* 2024     LFortran Core Contributor 🔧
-* 2024     WorkHubPro: Full-Stack Architecture 💼
-* 2022-26  IIT Jodhpur: CS Engineering 🎓
+```
+drwxr-xr-x  llvm-upstream/    ClangIR, Flang OpenMP — merged & merging
+drwxr-xr-x  lfortran/         OpenMP 6.0 infra + GPU offloading (GSoC '25)
+drwxr-xr-x  hpc-research/     4 papers. parallel graph algorithms.
+                              graphs are just matrices in denial.
+drwxr-xr-x  compiler-prep/    free interview prep site — no ads, no fluff
+-rw-r--r--  regrets.txt       [file not found]
 ```
 
----
-
-## 📡 **Network Protocols**
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adit4443ya/)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/adit4443ya)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:b22cs055@iitj.ac.in)
-
-</div>
-
----
-
-## 🎮 **Easter Eggs**
-
-<details>
-<summary><b>🔍 Click to reveal hidden stats...</b></summary>
-
-```python
-# Secret achievement unlocked!
-class HiddenStats:
-    def __init__(self):
-        self.coffee_consumed = "∞ cups"
-        self.bugs_fixed = "More than created (hopefully)"
-        self.stackoverflow_visits = "Privacy mode enabled"
-        self.favorite_debugging_method = "printf() driven development"
-        
-    def life_philosophy(self):
-        return "while(!(succeed = try())): coffee.drink();"
+```
+aditya@qualcomm:~$ man aditya | grep -A4 "KNOWN BEHAVIORS"
 ```
 
-**🏃‍♂️ Non-Technical Superpowers:**
--  Don't need anyone's POV
--  My way have always been beneficial (100% accuracy)
--  Be Observant
+```
+KNOWN BEHAVIORS
+    reads ARM assembly recreationally
+    treats Godbolt as a load-bearing dependency
+    believes fortran was fast in 1957 and is still fast. cope.
+    considers printf() a debugger for people who trust themselves
+```
 
-</details>
+```
+aditya@qualcomm:~$ curl -s links.local
+```
 
----
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aditya-trivedi-a30b70259/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-111111?style=flat-square&logo=vercel&logoColor=white)](https://portfolio-adit-six.vercel.app)
+[![Compiler Prep](https://img.shields.io/badge/Compiler_Prep-262626?style=flat-square&logo=llvm&logoColor=white)](https://compiler-prep.vercel.app)
+[![GSoC Blog](https://img.shields.io/badge/GSoC_Blog-4285F4?style=flat-square&logo=google&logoColor=white)](https://gsoc-blogs-5vgw.vercel.app)
 
-<div align="center">
+```
+aditya@qualcomm:~$ exit
+```
 
-### 💬 **"Talk is cheap. Show me the code."** - Linus Torvalds
-
-![Profile Views](https://komarev.com/ghpvc/?username=adit4443ya&color=blueviolet&style=for-the-badge)
-[![Followers](https://img.shields.io/github/followers/adit4443ya?style=for-the-badge&color=orange)](https://github.com/adit4443ya)
-
-**Currently Compiling...** ⚡
-
-</div>
-
----
-
-<div align="center">
-<i>🚧 This profile is (not) continuously integrated and continuously deployed, Stalkers can DM (It's free of cost) 🚧</i>
-</div>
+*session preserved · currently writing compiler passes · regretting nothing*

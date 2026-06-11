@@ -13,7 +13,7 @@ aditya@qualcomm:~$ cat profile.txt
 ```cpp
 // warning: opinions may be undefined behavior
 struct Aditya {
-    std::string_view stack = "LLVM · AArch64 · C++ · OpenMP · CUDA · MLIR";
+    std::string_view stack = "LLVM · AArch64 · C++ · OpenMP · MPI · CUDA · MLIR";
 
     constexpr auto hot_take() {
         return "your loop doesn't vectorize because of that if-condition. "
@@ -29,7 +29,7 @@ aditya@qualcomm:~$ ls -la ~/work
 ```
 drwxr-xr-x  llvm-upstream/    ClangIR, Flang OpenMP — merged & merging
 drwxr-xr-x  lfortran/         OpenMP 6.0 infra + GPU offloading (GSoC '25)
-drwxr-xr-x  hpc-research/     4 papers. parallel graph algorithms.
+drwxr-xr-x  hpc-research/     4 publications. parallel graph algorithms.
                               graphs are just matrices in denial.
 drwxr-xr-x  compiler-prep/    free interview prep site — no ads, no fluff
 -rw-r--r--  regrets.txt       [file not found]

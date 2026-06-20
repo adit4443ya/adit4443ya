@@ -1,4 +1,3 @@
-<!-- ═══════════════ OPTION 1: TERMINAL / CLI (refined, minimal) ═══════════════ -->
 
 ```
 aditya@qualcomm:~$ whoami

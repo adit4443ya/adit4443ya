@@ -22,7 +22,7 @@ I'm a compiler engineer on the ARM LLVM team at Qualcomm. My job is getting mach
 - **LLVM backends: AArch64.** I read IR and assembly until one of us blinks. NEON, SVE, SME.
 - **MLIR and ClangIR.** I lower things one dialect at a time, upstream and in public, with reviewers.
 - **OpenMP, MPI and GPU offload.** Teaching N cores to argue productively. In Google Summer of Code '25 I built OpenMP 6.0 infrastructure and GPU offloading for [LFortran](https://github.com/lfortran/lfortran).
-- **HPC research.** Parallel graph algorithms, five papers. Graphs are matrices in denial.
+- **HPC research.** Parallel graph algorithms, four publications. Graphs are matrices in denial, but BIG data indeed.
 - **Fortran.** Older than my dependencies, faster than my opinions.
 
 **Tools:** `C++` · `LLVM` · `MLIR` · `AArch64 asm` · `OpenMP` · `MPI` · `CUDA` · `Fortran`

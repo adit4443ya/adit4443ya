@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" role="img" aria-label="Compiler bug decision flow">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#8b949e"/>
+    </marker>
+    <style>
+      .title { fill: #c9d1d9; font: 700 18px SFMono-Regular, Menlo, Consolas, monospace; }
+      .label { fill: #c9d1d9; font: 16px SFMono-Regular, Menlo, Consolas, monospace; }
+      .muted { fill: #8b949e; font: 13px SFMono-Regular, Menlo, Consolas, monospace; }
+      .red { fill: #f85149; }
+      .blue { fill: #79c0ff; }
+      .green { fill: #3fb950; }
+      .amber { fill: #d29922; }
+      .panel { fill: #161b22; stroke-width: 1.6; }
+    </style>
+  </defs>
+  <rect width="900" height="520" rx="12" fill="#0d1117"/>
+  <text x="450" y="34" text-anchor="middle" class="title">Is it a compiler bug?  a field guide</text>
+
+  <rect x="455" y="57" width="330" height="46" rx="8" fill="#161b22" stroke="#f85149" class="panel"/>
+  <text x="620" y="85" text-anchor="middle" class="label">something is wrong</text>
+  <line x1="620" y1="103" x2="620" y2="140" stroke="#8b949e" stroke-width="1.6" marker-end="url(#arrow)"/>
+
+  <rect x="455" y="142" width="330" height="46" rx="8" fill="#161b22" stroke="#79c0ff" class="panel"/>
+  <text x="620" y="170" text-anchor="middle" class="label">does it vanish at -O0?</text>
+  <line x1="455" y1="165" x2="370" y2="165" stroke="#8b949e" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <text x="415" y="157" fill="#d29922" font-size="13">no</text>
+
+  <rect x="70" y="138" width="300" height="54" rx="8" fill="#161b22" stroke="#3fb950" class="panel"/>
+  <text x="220" y="161" text-anchor="middle" class="label">your bug.</text>
+  <text x="220" y="180" text-anchor="middle" class="muted">sorry. it happens to everyone.</text>
+
+  <line x1="620" y1="188" x2="620" y2="230" stroke="#8b949e" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <text x="628" y="214" fill="#d29922" font-size="13">yes</text>
+
+  <rect x="455" y="232" width="330" height="46" rx="8" fill="#161b22" stroke="#79c0ff" class="panel"/>
+  <text x="620" y="260" text-anchor="middle" class="label">ubsan / asan fire?</text>
+  <line x1="455" y1="255" x2="370" y2="255" stroke="#8b949e" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <text x="415" y="247" fill="#d29922" font-size="13">yes</text>
+
+  <rect x="70" y="228" width="300" height="54" rx="8" fill="#161b22" stroke="#3fb950" class="panel"/>
+  <text x="220" y="251" text-anchor="middle" class="label">UB.</text>
+  <text x="220" y="270" text-anchor="middle" class="muted">the compiler assumes you were joking.</text>
+
+  <line x1="620" y1="278" x2="620" y2="320" stroke="#8b949e" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <text x="628" y="304" fill="#d29922" font-size="13">no</text>
+
+  <rect x="455" y="322" width="330" height="46" rx="8" fill="#161b22" stroke="#79c0ff" class="panel"/>
+  <text x="620" y="350" text-anchor="middle" class="label">creduce it. bisect the pass.</text>
+
+  <line x1="620" y1="368" x2="620" y2="410" stroke="#8b949e" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <rect x="455" y="408" width="330" height="54" rx="8" fill="#161b22" stroke="#d29922" class="panel"/>
+  <text x="620" y="431" text-anchor="middle" class="label">file it upstream. be nice.</text>
+  <text x="620" y="450" text-anchor="middle" class="muted">reviewers are busy and also human.</text>
+
+  <text x="450" y="503" text-anchor="middle" class="muted">it is never the compiler. except when it is. be ready.</text>
+</svg>

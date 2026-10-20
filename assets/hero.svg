@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="330" viewBox="0 0 900 330" role="img" aria-label="Compilers terminal mockup">
+  <defs>
+    <style>
+      .bg { fill: #0d1117; }
+      .top { fill: #161b22; }
+      .txt { fill: #c9d1d9; font-family: SFMono-Regular, Menlo, Consolas, monospace; }
+      .muted { fill: #8b949e; }
+      .green { fill: #3fb950; }
+      .yellow { fill: #d29922; }
+      .red { fill: #f85149; }
+      .blue { fill: #79c0ff; }
+    </style>
+  </defs>
+  <rect class="bg" width="900" height="330" rx="12"/>
+  <rect class="top" width="900" height="38" rx="12"/>
+  <rect y="26" width="900" height="12" fill="#161b22"/>
+  <circle cx="24" cy="19" r="6" class="red"/>
+  <circle cx="46" cy="19" r="6" class="yellow"/>
+  <circle cx="68" cy="19" r="6" class="green"/>
+  <text x="450" y="24" text-anchor="middle" class="muted" font-size="13">aditya@hyd: ~/compilers</text>
+
+  <g class="txt" font-size="16">
+    <text x="52" y="86" fill="#3fb950">$</text>
+    <text x="68" y="86" fill="#c9d1d9"> cat ~/interests</text>
+    <text x="52" y="118" fill="#c9d1d9">llvm</text>
+    <text x="120" y="118" fill="#8b949e">miri</text>
+    <text x="180" y="118" fill="#8b949e">aarch64</text>
+    <text x="52" y="150" fill="#c9d1d9">openmp</text>
+    <text x="148" y="150" fill="#8b949e">mpi</text>
+    <text x="190" y="150" fill="#8b949e">hpc</text>
+    <text x="52" y="182" fill="#c9d1d9">$</text>
+    <text x="68" y="182" fill="#c9d1d9"> ./aditya --help</text>
+    <text x="52" y="214" fill="#d29922">usage:</text>
+    <text x="122" y="214" fill="#c9d1d9">aditya</text>
+    <text x="52" y="246" fill="#79c0ff">--make-it-faster</text>
+    <text x="220" y="246" fill="#c9d1d9">--read-the-asm</text>
+    <text x="52" y="278" fill="#79c0ff">--why-didnt-it-vectorize</text>
+  </g>
+</svg>

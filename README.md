@@ -1,62 +1,79 @@
+<div align="center">
+
+<img src="./assets/hero.svg" width="100%" alt="Terminal: aditya trivedi, compiler engineer on the ARM LLVM team" />
+
+</div>
+
+<br>
+
+I work on LLVM for ARM at Qualcomm. The job is convincing machines to run code faster, then convincing myself the speedup is real.
+
+<br>
+
+## What I'm into
+
+| | |
+|---|---|
+| **LLVM and AArch64** | Reading IR and assembly until one of us blinks. NEON, SVE, SME. |
+| **MLIR and ClangIR** | Lowering things one dialect at a time, upstream, in public, with reviewers. |
+| **OpenMP, MPI, GPU offload** | Teaching N cores to argue productively. LFortran, Google Summer of Code '25. |
+| **HPC research** | Parallel graph algorithms, five papers. Graphs are matrices in denial. |
+| **Fortran** | Older than my dependencies, faster than my opinions. Respect. |
+
+<br>
+
+<div align="center">
+
+<img src="./assets/compiler_bug.svg" width="100%" alt="Flowchart: is it a compiler bug?" />
+
+</div>
+
+<br>
+
+## Known issues
 
 ```
-aditya@qualcomm:~$ whoami
+$ man aditya | grep -A7 "KNOWN ISSUES"
+
+  - asks "what was the baseline?" at parties
+  - says "it's memory-bound" a lot. is right about as often as anyone
+  - has opinions on phase ordering and nobody to share them with
+  - will tell you your loop didn't vectorize because of the if-condition.
+    his own didn't either. we're fine.
+  - sanitizers can quietly stop the vectorizer. yes, really. there's an
+    upstream issue. yes, he filed it. no, he is not proud.
+  - considers printf() a debugger for people who trust themselves
+  - believes Fortran was fast in 1957 and still is. cope.
 ```
 
-**Aditya Trivedi** — Compiler Engineer, ARM LLVM Team @ Qualcomm · Hyderabad
+<br>
 
-```
-aditya@qualcomm:~$ cat profile.txt
-```
+<div align="center">
 
-```cpp
-// warning: opinions may be undefined behavior
-struct Aditya {
-    std::string_view stack = "LLVM · AArch64 · C++ · OpenMP · MPI · CUDA · MLIR";
+<img src="./assets/benchmark.svg" width="100%" alt="Bar chart: benchmark speedup, hype versus honest measurement" />
 
-    constexpr auto hot_take() {
-        return "your loop doesn't vectorize because of that if-condition. "
-               "change it to a ternary. you're welcome.";
-    }
-};
-```
+</div>
 
-```
-aditya@qualcomm:~$ ls -la ~/work
-```
+<br>
 
-```
-drwxr-xr-x  llvm-upstream/    ClangIR, Flang OpenMP — merged & merging
-drwxr-xr-x  lfortran/         OpenMP 6.0 infra + GPU offloading (GSoC '25)
-drwxr-xr-x  hpc-research/     4 publications. parallel graph algorithms.
-                              graphs are just matrices in denial.
-drwxr-xr-x  compiler-prep/    free interview prep site — no ads, no fluff
--rw-r--r--  regrets.txt       [file not found]
-```
+## Side quest: Forge
 
-```
-aditya@qualcomm:~$ man aditya | grep -A4 "KNOWN BEHAVIORS"
-```
+A practice gym for compiler, systems and low-latency people. The twist: hints, patterns and solutions sit behind timers, and it remembers what you peeked at. Think of it as a spotter for your brain. 120 problems, 64 guided labs, and a market-making game, because why not.
 
-```
-KNOWN BEHAVIORS
-    reads ARM assembly recreationally
-    treats Godbolt as a load-bearing dependency
-    believes fortran was fast in 1957 and is still fast. cope.
-    considers printf() a debugger for people who trust themselves
-```
+[![Forge](https://img.shields.io/badge/Forge-open_the_gym-3fb950?style=for-the-badge&logo=hammer&logoColor=white)](https://github.com/adit4443ya/forge)
 
-```
-aditya@qualcomm:~$ curl -s links.local
-```
+<br>
+
+## Find me
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aditya-trivedi-a30b70259/)
 [![Portfolio](https://img.shields.io/badge/Portfolio-111111?style=flat-square&logo=vercel&logoColor=white)](https://portfolio-adit-six.vercel.app)
-[![Compiler Prep](https://img.shields.io/badge/Compiler_Prep-262626?style=flat-square&logo=llvm&logoColor=white)](https://compiler-prep.vercel.app)
 [![GSoC Blog](https://img.shields.io/badge/GSoC_Blog-4285F4?style=flat-square&logo=google&logoColor=white)](https://gsoc-blogs-5vgw.vercel.app)
 
-```
-aditya@qualcomm:~$ exit
-```
+<br>
 
-*session preserved · currently writing compiler passes · regretting nothing*
+<div align="center">
+
+*if your loop won't vectorize, I'll say it's the if-condition. I'm usually right. sometimes it's aliasing.*
+
+</div>

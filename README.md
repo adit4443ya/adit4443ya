@@ -13,7 +13,7 @@
 
 <br>
 
-I'm a compiler engineer on the ARM LLVM team at Qualcomm. My job is getting machines to run code faster, then checking that the speedup is real.
+I write compiler code for ARM at Qualcomm. Most days that means staring at a loop, then at its assembly, until I know why they disagree about how fast it should be.
 
 <br>
 
@@ -25,53 +25,73 @@ I'm a compiler engineer on the ARM LLVM team at Qualcomm. My job is getting mach
 - **HPC research.** Parallel graph algorithms, four publications. Graphs are matrices in denial, but BIG data indeed.
 - **Fortran.** Older than my dependencies, faster than my opinions.
 
-**Tools:** `C++` · `LLVM` · `MLIR` · `AArch64 asm` · `OpenMP` · `MPI` · `CUDA` · `Fortran`
+<br>
+
+## `aditya.hpp`
+
+```cpp
+struct Aditya {
+    std::string_view role  = "Compiler Engineer, ARM LLVM @ Qualcomm";
+    std::string_view based = "Hyderabad, IN";
+    std::array<std::string_view, 9> stack = {
+        "C++", "LLVM", "MLIR", "ClangIR", "AArch64",
+        "OpenMP", "MPI", "CUDA", "Fortran"};
+    std::string_view gsoc  = "LFortran '25: OpenMP 6.0 + GPU offload";
+    int  papers            = 4;      // parallel graph algorithms
+    bool vectorized        = false;  // there's an if-condition in here somewhere
+};
+```
+
+<sub>It compiles. I checked. Occupational hazard.</sub>
 
 <br>
 
-<div align="center">
-
-<img src="./assets/compiler_bug.svg" width="100%" alt="Flowchart: is it a compiler bug? If it persists at -O0, it's your bug. If sanitizers fire, it's undefined behavior. Otherwise reduce it, bisect the pass and file it upstream." />
-
-</div>
-
-<br>
-
-## Known issues
+## Optimization remarks
 
 ```console
-$ man aditya | grep -A10 "KNOWN ISSUES"
-
-  - asks "what was the baseline?" at parties
-  - says "it's memory-bound" a lot. is right about as often as anyone
-  - has opinions on phase ordering and nobody to share them with
-  - will tell you your loop didn't vectorize because of the if-condition.
-    his own didn't either. we're fine.
-  - found out sanitizers can quietly stop the vectorizer. filed the
-    upstream issue. is not proud of how long it took.
-  - considers printf() a debugger for people who trust themselves
-  - believes Fortran was fast in 1957 and still is. cope.
+$ clang++ -O3 -Rpass-missed='.*' aditya.cpp
+aditya.cpp:4:5:  remark: 'congratulate' not inlined: asked "what was the baseline?" first
+aditya.cpp:9:3:  remark: loop not vectorized: there was an if-condition. there is always an if-condition
+aditya.cpp:12:3: remark: loop not vectorized: -fsanitize=address was on (yes, I filed that issue)
+aditya.cpp:15:1: remark: claim "it's memory-bound" not hoisted: no roofline drawn yet
+aditya.cpp:18:7: remark: call to 'printf' not removed: still my favourite debugger
+aditya.cpp:21:1: remark: Fortran kernel not replaced: still fast since 1957
+aditya.cpp:23:1: warning: opinions on phase ordering have no users [-Wunused]
+1 warning generated.
 ```
 
 <br>
 
-<div align="center">
+## Hot takes (mild, defensible)
 
-<img src="./assets/benchmark.svg" width="100%" alt="Bar chart: a noisy laptop run shows 3.20x, a cleaner run shows 0.92x, a properly controlled run shows the real 1.04x" />
-
-</div>
+- `-O3` is a flag, not a personality.
+- A speedup without variance is a vibe.
+- Read the assembly before you write the blog post.
+- `restrict` fixes more loops than anyone wants to admit.
+- Fortran isn't legacy. It's load-bearing.
 
 <br>
 
-## Side quest: Forge
+## `git log --oneline` of a normal week
 
-**[Forge](https://github.com/adit4443ya/forge)** is a practice gym for compiler, systems and low-latency engineers.
+```text
+4f1c2ab  fix: loop vectorizes now (it was the if-condition)
+9e07d31  revert: it was not the if-condition
+b2a6f88  fix: it was aliasing
+c71d0e4  perf: 6% faster on the benchmark, 0% on everything else
+a03e9f2  test: add the case reviewers will ask about anyway
+e58b7c1  docs: explain why this pass runs before that one
+```
 
-- **120 problems and 64 guided labs** covering compilers, systems and performance work.
-- **Hints, patterns and solutions are timed.** They unlock only after you've had a real go, and Forge remembers what you peeked at.
-- **A market-making game**, because why not.
+<br>
 
-[![Open Forge](https://img.shields.io/badge/Forge-open_the_gym-3fb950?style=for-the-badge&logo=github&logoColor=white)](https://github.com/adit4443ya/forge)
+## Things I've built
+
+| Project | What it is |
+|---|---|
+| **[Forge](https://github.com/adit4443ya/forge)** | A practice gym for compiler, systems and low-latency engineers. 120 problems, 64 guided labs and a market-making game. Hints and solutions sit behind timers, and it remembers what you peeked at. |
+| **[LFortran OpenMP](https://github.com/lfortran/lfortran)** | Google Summer of Code '25: OpenMP 6.0 infrastructure and GPU offloading. The write-up is on my [GSoC blog](https://gsoc-blogs-5vgw.vercel.app). |
+| **[Portfolio](https://portfolio-adit-six.vercel.app)** | The longer version of this page. |
 
 <br>
 
@@ -87,7 +107,7 @@ $ man aditya | grep -A10 "KNOWN ISSUES"
 
 ## Say hi
 
-Want to talk about vectorizers, AArch64 codegen, OpenMP or a benchmark you don't quite trust? Message me on [LinkedIn](https://www.linkedin.com/in/aditya-trivedi-a30b70259/).
+Talk to me about vectorizers, AArch64 codegen, OpenMP, or a benchmark you don't quite trust. [LinkedIn](https://www.linkedin.com/in/aditya-trivedi-a30b70259/) works best.
 
 <br>
 

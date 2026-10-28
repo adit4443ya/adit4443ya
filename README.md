@@ -85,15 +85,7 @@ e58b7c1  docs: explain why this pass runs before that one
 
 <br>
 
-## Things I've built
 
-| Project | What it is |
-|---|---|
-| **[Forge](https://github.com/adit4443ya/forge)** | A practice gym for compiler, systems and low-latency engineers. 120 problems, 64 guided labs and a market-making game. Hints and solutions sit behind timers, and it remembers what you peeked at. |
-| **[LFortran OpenMP](https://github.com/lfortran/lfortran)** | Google Summer of Code '25: OpenMP 6.0 infrastructure and GPU offloading. The write-up is on my [GSoC blog](https://gsoc-blogs-5vgw.vercel.app). |
-| **[Portfolio](https://portfolio-adit-six.vercel.app)** | The longer version of this page. |
-
-<br>
 
 ## Contribution graph
 
